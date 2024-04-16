@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tembea Africa</title>
+    <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    a {
+        text-decoration: none;
+        display: flex;
+
+
+    }
+    .hero {
+        width: 100%;
+        height: 100vh;
+        background: url(https://images.pexels.com/photos/206395/pexels-photo-206395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        background-size: cover;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 100px;
+    }
+    .logo {
+        max-height: 60px;
+    }
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px 20px;
+    }
+    nav ul li a {
+        color: #1d1d24;
+        position: relative;
+        padding: 5px 0;
+    }
+    nav ul li a:hover {
+        color: #fd4766;
+    }
+    nav ul li a:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 3px;
+        background: #fd4766;
+        transition: 0.3s;
+        bottom: 0;
+    }
+    nav ul li a:hover:after {
+        width: 100%;
+    }
+    .btn {
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 16px 40px;
+        border-radius: 500px;
+        display: inline-block;
+        font-weight: 500;
+        transition: all 0.4s ease-in-out;
+        background-size: 152% 100%;
+        background: #fd4766;
+        border: 2px solid #fd4766;
+    }
+    .btn:hover {
+        background: transparent;
+        border-color: #fd4766;
+        color: #fd4766;
+    }
+    .content {
+        position: absolute;
+        top: 35%;
+        left: 8%;
+    }
+    .content .title {
+        color: #0a0a0a;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        display: inline-block;
+        margin-bottom: 20px;
+        background: linear-gradient(
+            120deg,
+            #1c99fe 20.69%,
+            #7644ff 50.19%,
+            #fd4766 79.69%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .content h1 {
+        color: #1f1f25;
+        font-size: 75px;
+        font-weight: 900;
+        line-height: 90px;
+        text-transform: inherit;
+        width: 70%;
+    }
+    .content h1 span {
+        color: #fd4766;
+    }
+    .content p {
+        width: 55%;
+        color: #202020;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    </style>
+
+</head>
+<body>
+    
+    <body>
+
+        <section class="nav-bar">
+            <div class="logo">Tembea Africa</div>
+            <ul class="menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">tours</a></li>
+                <li><a href="#">package</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+            </div>
+        
+        </section>
+        
+
+
+
+        <section class="banner">
+            <div class="banner-text-item">
+                <div class="banner-heading">
+                    <h1>Find your Next tour!</h1>
+                </div>
+                <form class="form">
+                    <input type="text" list="mylist" placeholder="Where would you like to go?">
+                    <datalist id="mylist">
+                        <option>kenya</option>
+                        <option>Tanzania</option>
+                        <option>Naigeria</option>
+                        <option>South africa</option>
+                        <option>Uganda</option>
+                        <option>Somalia</option>
+                        <option>Ethopia</option>
+                    </datalist>
+                    <input type="date" class="date">
+                    <a href="#" class="book">book</a>
+                </form>
+            </div>
+        </section>
+
+        <img src="https://afrikanza.com/cdn/shop/articles/largest-animals-in-africa-top-19_e25e2f97-4d03-439d-ab4d-bba4aee0a292_950x.jpg?v=1590690009" alt="">
+
+
+        <section class="services">
+            <div class="service-item">
+                <h2>Wild animals travel adventure</h2>
+                <img src="https://www.shutterstock.com/image-photo/african-big-five-landscape-nature-600nw-2381365399.jpg"width="25%" height="50%">
+            </div>
+
+
+            <div class="service-item">
+                <h2>Culture travel adventure</h2> 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDjSCYjCUDxtIeggWee2Ty_Lo-J-W9LQr7Mw&s">
+                  
+            </div>
+
+
+            <div class="service-item">
+                <h2>Interact with nature</h2>
+                <img src="https://i.pinimg.com/736x/b7/0f/86/b70f869b4ec0b3cd413907012fc8e761.jpg" height="250px" width="250px">
+                
+            </div>
+        </section>
+        
+
+
+        <section class="places">
+            <div class="places-text">
+                <small>FEATURED TOURS PACKAGES</small>
+                <h2>Favourite Places</h2>
+            </div>
+        
+            <div class="cards">
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="https://media.istockphoto.com/id/1429482238/photo/hot-air-ballooning-over-african-elephants-in-the-masai-mara-national-reserve-kenya.webp?b=1&s=170667a&w=0&k=20&c=B3FEf4kKnvtqjGFI1y2tBB13PKzfSnMQ5pgMjeEgMNc=" width="100%">
+                        </div>
+                    </div>
+        
+                    <div class="text">
+                        <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                        <h2>Masai mara</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">&#128339; 3 Days</p>
+                            <p class="location">&#9992;Narok county,Kenya </p>
+                        </div>
+                    </div>
+        
+
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/2021-02/Colmar-Old-Town.jpg" width="100%">
+                        </div>
+                    </div>
+        
+                    <div class="text">
+                        <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                        <h2>Daresalam Hotel</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">&#128339; 3 Days</p>
+                            <p class="location">&#9992; Daresalam ,Tanzania</p>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="https://www.andrewshoemaker.com/images/640/kaanapali-nights-sunset-palm-trees.jpg"  height="" width="100%">
+                        </div>
+                    </div>
+        
+                    <div class="text">
+                        <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                        <h2>Mombasa beach</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">&#128339; 3 Days</p>
+                            <p class="location">&#9992; , </p>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/03/Cover-for-Waterfalls-In-Thailand.jpg" width="100%">
+                        </div>
+                    </div>
+        
+                    <div class="text">
+                        <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                        <h2>Waterfall</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">&#128339; 3 Days</p>
+                            <p class="location">&#9992;Kisumu ,Kenya </p>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2023/12/05155435/morocco.jpg" height="100%" width="100%">
+                        </div>
+                    </div>
+        
+                    <div class="text">
+                        <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                        <h2>Nigeria national museum</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">&#128339; 3 Days</p>
+                            <p class="location">&#9992; legos,Nigeria </p>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="https://i.ytimg.com/vi/lvP-S7E_WTM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDjtRvhCdA-3LUdUW1y3DnSsht9pw" width="100%">
+                        </div>
+                    </div>
+        
+                    <div class="text">
+                        <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                        <h2>Five star hotel</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">&#128339; 3 Days</p>
+                            <p class="location">&#9992; Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="about">
+            <div class="about-img">
+                <img src="">
+            </div>
+            <div class="about-text">
+                <small>ABOUT OUR COMPANY</small>
+                <h2>We are Go Trip Ravels Support Company</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud</p>
+        
+                <label><input type="checkbox" checked>Lorem ipsum dolor sit amet</label>
+                <label><input type="checkbox" checked>consectetur adipisicing elit</label>
+                <label><input type="checkbox" checked>Architecto atque consequuntur</label>
+                <label><input type="checkbox" checked>cupiditate doloremque ducimus</label>
+                <a href="#">ABOUT US</a>
+            </div>
+        </section>
+        
+
+
+
+        <div class="footer">
+            <div class="links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Offers & Discounts</li>
+                    <li>Get Coupon</li>
+                    <li>Contact Us</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>New Products</h3>
+                <ul>
+                    <li>Woman Cloth</li>
+                    <li>Fashion Accessories</li>
+                    <li>Man Accessories</li>
+                    <li>Rubber made Toys</li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>Support</h3>
+                <ul>
+                    <li>Frequently Asked Questions</li>
+                    <li>Report a Payment Issue</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+        </body>
+        </html>
+</body>
+</html>
